@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>example</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <!--Acerca de pom.xml:
+
+        El archivo pom.xml es utilizado por una herramienta llamada Maven, que viene incluida
+        en la mayoría de IDEs.
+
+        Maven permite gestionar automáticamente librerías y dependencias, descargándolas
+        desde internet y agregándolas a tu proyecto de forma automática. Sin una herramienta
+        como ésta, tendrías que agregar librerías manualmente, como cuando usábamos C.
+
+        En Objetos 1 no van a ver este tipo de archivos. Sin embargo, saber que existe los
+        va a ayudar en Objetos 2 y en general.
+
+        Si quieren agregar una dependencia, pueden buscarla en https://mvnrepository.com/
+        Mi recomendación es la librería lombok, que genera Getters y Setters automáticamente
+        con el uso de anotaciones. -->
+
+    <properties>
+        <java.version>18</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!--
+        <dependency>
+            <groupId>Ejemplo.de.dependencia</groupId>
+            <artifactId>Esto es un ejemplo</artifactId>
+            <version>1.0</version>
+        </dependency>
+        -->
+    </dependencies>
+
+</project>
