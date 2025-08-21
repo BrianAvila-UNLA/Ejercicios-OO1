@@ -1,7 +1,12 @@
-# Pasos a seguir
+# Ejemplos de cada guía.
 
-La idea es que se use una branch para cada guía.
+El código se divide en 2:
 
-Tras crear una branch, el siguiente paso es hacer un commit e iniciar un pull request.
+-La carpeta main contiene código fuente, como las declaraciones de datos o clases estáticas.
+-La carpeta test contiene clases ejecutables, es decir, clases con el método main.
 
-Eso va a permitir que se puedan hacer comentarios sobre el código, tanto para corregir errores como para preguntarme cosas.
+No hace falta tener múltiples paquetes en el main, pero sí es necesario que usen un paquete
+diferente para los tests.
+
+Recomiendo ver tanto el código del main como el test asociado para comprender bien el concepto
+abordado.
